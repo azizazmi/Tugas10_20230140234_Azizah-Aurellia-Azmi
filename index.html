@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rekomendasi Film</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-red-600 text-white p-6 shadow-md">
+    <h1 class="text-3xl font-bold text-center">NontonApa - Mau Nonton Apa Hari Ini?</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between p-8 max-w-6xl mx-auto">
+    <img src="logoNontonApa.png" alt="Film" class="w-32 h-32 md:w-48 md:h-48 object-contain rounded-lg shadow-md mb-6 md:mb-0">
+    <div class="md:ml-8">
+      <h2 class="text-2xl font-semibold mb-4">Temukan film favoritmu!</h2>
+      <p class="mb-6">Butuh rekomendasi film untuk malam minggu? NontonApa hadir untuk memberikan daftar film terbaik dari berbagai genre!</p>
+      <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">Lihat Rekomendasi</button>
+    </div>
+  </section>
+
+  <!-- Rekomendasi Film -->
+  <section class="bg-white py-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-xl font-bold mb-6 text-center">Top 3 Hari Ini</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-gray-50 rounded-lg shadow-md p-4">
+          <img src="https://media.themoviedb.org/t/p/w600_and_h900_bestv2/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg" alt="The Last of Us" class="rounded mb-4">
+          <h4 class="font-bold text-lg">The Last of Us</h4>
+          <p class="text-sm text-gray-600 mb-2">Drama | 2023</p>
+          <button class="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded">Detail</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-gray-50 rounded-lg shadow-md p-4">
+          <img src="https://media.themoviedb.org/t/p/w600_and_h900_bestv2/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg" alt="World War Z" class="rounded mb-4">
+          <h4 class="font-bold text-lg">World War Z</h4>
+          <p class="text-sm text-gray-600 mb-2">Action, Horror, Sci-Fi, Thriller | 2013</p>
+          <button class="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded">Detail</button>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-gray-50 rounded-lg shadow-md p-4">
+          <img src="https://media.themoviedb.org/t/p/w600_and_h900_bestv2/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg" alt="Dunkirk" class="rounded mb-4">
+          <h4 class="font-bold text-lg">Dunkirk</h4>
+          <p class="text-sm text-gray-600 mb-2">War, Action, Drama | 2017</p>
+          <button class="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded">Detail</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+    <p>&copy; 2025 NontonApa. Dibuat dengan ❤️ oleh Tim NontonApa.</p>
+  </footer>
+
+</body>
+</html>
